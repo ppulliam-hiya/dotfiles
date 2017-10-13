@@ -1,6 +1,3 @@
-" Initialize the Pathogen package management system
-"call pathogen#infect()
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -25,6 +22,7 @@ set hidden
 " Color syntax highlighting
 syntax on
 
+" ^..^ figure out why dark backgrounds aren't working in Mac's terminal.
 set background=dark
 
 " Always show current position
