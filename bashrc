@@ -10,6 +10,10 @@ source ~/.fresh/build/shell.sh
 
 if [[ -n $PS1 ]]; then
     : # Executed only for interactive shells
+        alias dir ls -AFC
+
+        # root CA for hiya svcs including vault.
+        ROOT_CA=$HOME/.creds/certs/hiya-ca/hiya-root.cert.pem
 
     # Per the direnv installation instructions, this line must occur at the end of
     # .bashrc
