@@ -23,7 +23,7 @@ set hidden
 syntax on
 
 " ^..^ figure out why dark backgrounds aren't working in Mac's terminal.
-set background=dark
+"set background=dark
 
 " Always show current position
 set ruler
