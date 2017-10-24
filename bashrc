@@ -3,7 +3,7 @@
 export EDITOR=`which vim`
 export VISUAL=$EDITOR
 
-PATH=$HOME/bin:$PATH
+PATH=$HOME/bin:/usr/local/sbin:$PATH
 source ~/.fresh/build/shell.sh
 
 # General configuration ends
